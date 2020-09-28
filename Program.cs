@@ -12,6 +12,9 @@ namespace SnakesAndLadder
             int position = 0;
             Console.WriteLine("Start Position of Player 1 = 0");
 
+
+
+
             Random random = new Random();
             ////Generating value on a dice
             int dice = random.Next(1, 7); //// Dice will choose a number between 1 to 6
@@ -39,6 +42,11 @@ namespace SnakesAndLadder
                     break;
                 default: break;
             }
+
+            
+            Console.WriteLine("The number on dice =" + dice);
+
+
         }
     }
 }
