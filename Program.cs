@@ -8,9 +8,23 @@ namespace SnakesAndLadder
         {
             Console.WriteLine("Welcome to the game of Snakes and Ladders");
             //// Starting position of player
+
             int counter = 0;
             int position = 0;
             Console.WriteLine("Start Position of Player 1 = 0");
+
+
+
+            int position = 0;
+            Console.WriteLine("Start Position of Player 1 = 0");
+
+
+
+
+
+
+
+
 
             Random random = new Random();
             ////Generating value on a dice
@@ -39,11 +53,17 @@ namespace SnakesAndLadder
                     break;
                 default: break;
 
+
                     //// If player reaches below 0:
+
+    //// If player reaches below 0:
+
                     
                     if (position < 0)
                         position = 0;
                     Console.WriteLine("The position of player =" + position);
+
+
 
                     //// Game is completed when position reaches 100
                     if (position == 100)
@@ -51,7 +71,7 @@ namespace SnakesAndLadder
                         Console.WriteLine("Game completed");
                         break;
                     }
-                   
+
                     counter++;
             }
             ////Printing number of moves
@@ -61,3 +81,20 @@ namespace SnakesAndLadder
         }
     }
     }
+
+            }
+
+            }
+
+            }
+
+            
+            Console.WriteLine("The number on dice =" + dice);
+
+
+
+
+        }
+    }
+}
+master
